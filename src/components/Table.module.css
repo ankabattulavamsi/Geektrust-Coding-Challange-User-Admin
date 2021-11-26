@@ -1,0 +1,89 @@
+.table-container {
+	width: 90%;
+	background-color: #f7f7f7;
+	padding: 1rem;
+	border-radius: 10px;
+}
+
+/* table thead {
+	margin-bottom: 20px;
+} */
+
+tr th {
+	/* width: 20%; */
+	padding: 2px;
+	border-bottom: 2px solid gray;
+	text-align: left;
+}
+tr td {
+	/* width: 20%; */
+	padding: 2px;
+	text-align: left;
+}
+
+tr:nth-child(even) {
+	background-color: #dee2e6;
+}
+.pagination {
+	display: flex;
+	gap: 12rem;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 2rem;
+}
+
+.pageBtn {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+	font-size: 1rem;
+	border-radius: 50%;
+	cursor: pointer;
+	padding: auto;
+	font-weight: bold;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+}
+
+.btns {
+	font-size: 1rem;
+	border-radius: 50%;
+	cursor: pointer;
+	padding: auto;
+	font-weight: bold;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background-color: blueviolet;
+	width: 36px;
+	height: 36px;
+}
+
+.btn:hover,
+.btn:active {
+	background-color: blue;
+	color: white;
+}
+
+.btn-delete {
+	background-color: #e03131;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.btn-delete:hover {
+	background-color: #c92a2a;
+}
